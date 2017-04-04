@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    /*********************************************************/
+
+    <!--设置按钮的颜色-->
+    <style name="CustomDialogButton" parent="Theme.AppCompat.Light.Dialog">
+        <item name="buttonBarPositiveButtonStyle">@style/buttonBarPositive</item>
+        <item name="buttonBarNeutralButtonStyle">@style/buttonBarNeutral</item>
+        <item name="buttonBarNegativeButtonStyle">@style/buttonBarNegative</item>
+    </style>
+
+    <style name="buttonBarPositive" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/sure</item>
+    </style>
+
+    <style name="buttonBarNegative" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/cancel</item>
+    </style>
+
+    <style name="buttonBarNeutral" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/neutrality</item>
+    </style>
+    <!--设置按钮的颜色-->
+
+    /*********************************************************/
+
+    <!--自定义Dialog-->
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">true</item><!--true 屏幕变暗-->
+        <item name="android:windowBackground">@android:color/transparent</item><!-- 背景透明 -->
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <!-- Dialog进出动画 -->
+    <style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/custom_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/custom_dialog_out</item>
+    </style>
+    <!--自定义Dialog-->
+
+</resources>

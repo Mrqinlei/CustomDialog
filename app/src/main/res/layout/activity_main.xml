@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog1"
+            android:text="Material dialog 普通" />
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog3"
+            android:text="Material dialog 选项" />
+
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog4"
+            android:text="Material dialog 单选" />
+
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog2"
+            android:text="Material dialog 多选" />
+
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog8"
+            android:text="Material dialog adapter" />
+
+        <!--Material 风格的 Dialog-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog5"
+            android:text="Material dialog 自定义内容" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog6"
+            android:text="Material dialog 加载中" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="normalDialog7"
+            android:text="Material dialog 进度条" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="customDialog"
+            android:text="自定义 dialog" />
+
+    </LinearLayout>
+
+</ScrollView>
+
